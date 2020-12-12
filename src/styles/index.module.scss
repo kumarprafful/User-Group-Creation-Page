@@ -1,0 +1,85 @@
+
+.defaultPic {
+  height: 250px;
+  width: 250px;
+}
+
+.groupDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  .groupPhoto {
+    margin: 0 50px;
+    text-align: center;
+    img {
+      border-radius: 20px;
+    }
+    p {
+      cursor: pointer;
+    }
+  }
+  .groupInfo {
+    display: flex;
+    flex-direction: column;
+    .groupItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+input {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid rgb(133, 133, 133);
+  outline: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+label {
+  margin-bottom: 20px;
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  p {
+    margin-right: 10px;
+  }
+  select {
+    padding: 10px 20px;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50px;
+  }
+  select option {
+    color: #000;
+  }
+}
+
+.actions{
+    button{
+        padding: 15px 25px;
+        cursor: pointer;
+        margin: 10px;
+        border: none;
+        color: #fff;
+    }
+    button:focus{
+        outline: none;
+    }
+    .update{
+        background-color: rgb(0, 166, 255);
+    }
+    .remove{
+        background-color: rgb(228, 0, 0);
+    }
+}

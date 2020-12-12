@@ -1,0 +1,30 @@
+.userList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  background-color: rgb(56, 152, 255);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  .checkIcon {
+    position: absolute;
+    right: 0;
+    border-top-right-radius: inherit;
+    padding: 7px;
+    font-size: 24px;
+    background-color: rgb(56, 152, 255);
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px 20px 0 0px;
+  }
+  p {
+    text-align: center;
+  }
+}
