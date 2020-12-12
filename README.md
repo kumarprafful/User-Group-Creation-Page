@@ -8,3 +8,12 @@ Instructions to run the app:-
 
 The commands will open run the project on http://localhost:3000.
 I have also deployed this app on netlify. Link =  https://caavo-ui-prafful.netlify.app/
+Github link to the project - https://github.com/kumarprafful/User-Group-Creation-Page
+
+Regards
+
+Prafful Kumar
+
+Linkedin - https://www.linkedin.com/in/praffulkumar/
+Github - https://github.com/kumarprafful
+Portfolio - http://praffulkumar.xyz/
